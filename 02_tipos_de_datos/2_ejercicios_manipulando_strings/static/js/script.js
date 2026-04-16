@@ -1,4 +1,4 @@
-console.log("conexion hecha de forma exitosa");
+console.log("conexión hecha de forma exitosa");
 
 
 // 1️⃣ Presentación completa
@@ -21,8 +21,8 @@ console.log(`ella es ${nombre}, tiene ${edad} años, y su edad es un \ndato tipo
 // Indique dónde vive la persona
 // Muestre la comuna en MAYÚSCULAS
 // Muestre la región en minúsculas
-let comuna = "maipú";
-let region = "metropolitana";
+let comuna = "Maipú";
+let region = "Metropolitana";
 console.log(`soy de ${comuna.toUpperCase()} , que esta en la Region ${region.toLowerCase()}`);
 // 3️⃣ Análisis de palabra
 // Crea la variable:
@@ -64,7 +64,7 @@ console.log(`${compras.toUpperCase()} (existe el aceite?) ${compras.includes("ac
 // Indicar cuántos caracteres tiene
 let numeroCasa = 456;
 let numeroCasaTexto = String(numeroCasa);
-console.log(`Esa casa es la ${numeroCasaTexto}, el numero de la casa es un dato tipo: '${typeof numeroCasaTexto}' y tiene la cantidad de ${numeroCasaTexto.length} caracteres.`)
+console.log(`Esa casa es la ${numeroCasaTexto}, el numero de la casa es un dato tipo: '${typeof numeroCasaTexto}' y tiene la cantidad de ${numeroCasaTexto.length} caracteres.`);
 // 7️⃣ Identificación personal extendida
 // Crea las variables:
 // nombre: Diego
@@ -75,8 +75,8 @@ console.log(`Esa casa es la ${numeroCasaTexto}, el numero de la casa es un dato 
 // Muestre todo en MAYÚSCULAS
 let nombre1 = "Diego";
 let apellido1 = "Rojas";
-let nombrecompleto = `${nombre1} ${apellido1}`
-console.log(`${nombrecompleto} (la cantodad total de caracteres es de: ${nombrecompleto.length})`.toUpperCase());
+let nombrecompleto = `${nombre1} ${apellido1}`;
+console.log(`${nombrecompleto.toUpperCase()} (la cantodad total de caracteres es de: ${nombrecompleto.length})`);
 // 8️⃣ Verificación de contenido
 // Crea la variable:
 // frase: Hoy aprenderemos sobre strings
@@ -97,17 +97,17 @@ console.log(`${frase1.toUpperCase()}
 // El texto en mayúsculas
 // La cantidad de caracteres
 let texto = "Programar es divertido";
-console.log(`${texto} \n ${texto.toLowerCase()} \n ${texto.toUpperCase()} (cantidad de caracteres=${texto.length})`);
+console.log(`${texto} \n${texto.toLowerCase()} \n${texto.toUpperCase()} \n(cantidad de caracteres=${texto.length})`);
 // 🔟 Desafío completo integrado
 // Crea las variables:
-// curso: 4C
+// curso: 3C
 // año: 2026
 // Debes mostrar un mensaje que:
 // Indique el curso y año
 // Convierta el año a texto
 // Indique el tipo de dato del año convertido
 // Muestre todo el mensaje en MAYÚSCULAS
-let curso = "4C";
+let curso = "3C";
 let año = 2026;
 let añotexto = String(año);
-console.log(`${curso}, ${añotexto} (el año es un dato tipo:'${typeof añotexto}' y tiene ${añotexto.length} caracteres)`.toUpperCase());
+console.log(`Curso:${curso}. \naño:${añotexto}. \n(el año es un dato tipo:'${typeof añotexto}' y tiene ${añotexto.length} caracteres)`.toUpperCase());
