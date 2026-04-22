@@ -1,10 +1,11 @@
-console.log("conexión exitosa con js")
+console.log("conexión exitosa con js");
 
 // tipos de datos numericos
-
+// let: palabra clave para crear variables
 //1.- Declaracion de números (creacion de variables númericas)
 let edad = 31;
 let temperatura = -5;
+let precio = 19990;
 let pi = 3.1416;
 let descuento = 0.25;
 
@@ -14,7 +15,7 @@ let suma = 10 + 5;
 let resta = 10 - 5;
 let multiplicacion = 10 * 5;
 let division = 25 / 5;
-let modulo = 10 % 3;
+let modulo = 10 % 3; //modulo guarda lo que sobra de una division
 let potencia = 2 ** 3;
 console.log(`sumar:${suma}, restar:${resta}, multiplicar:${multiplicacion}
 dividir:${division}, resto(%):${modulo}, potencia:${potencia}.`);
@@ -46,10 +47,23 @@ console.log(`el valor final del producto es: ${total}`);
 //calculo de valor de hora trabajada
 let horas = 40;
 let valorHora = 13400;
-let sueldo = horas * valorHora
-console.log(`el sueldo del trajador es: ${sueldo}`)
+let sueldo = horas * valorHora;
+console.log(`el sueldo del trajador es: ${sueldo}`);
 
 //redondeo de numeros
-Math.round(4.6); 
-console.log(`redondeando 4.6: ${Math.round(4.6)}`) //5
-console.log(`redondeando 4.6: ${Math.floor(4.6)}`) //4
+Math.round(4.6);
+console.log(`redondeando 4.6: ${Math.round(4.6)}`); //5
+console.log(`redondeando 4.6: ${Math.floor(4.6)}`);
+
+//8.- Números aleatorios
+let random = Math.random(); //valor random entre 0 y 1
+let dado = Math.floor(Math.random() * 6) + 1;
+console.log(`vamos papi, dame un 6!... ${dado}`);
+
+//9.- comparaciones numéricas
+let a = 10;
+let b = 5;
+console.log(a > b);//resultado esperado: TRUE
+console.log(a < b);//resultado esperado: FALSE
+console.log(a === 10);//resultado esperado: TRUE (=== estricta igualdad)
+console.log(b === 3);//resultado esperado: FALSE
