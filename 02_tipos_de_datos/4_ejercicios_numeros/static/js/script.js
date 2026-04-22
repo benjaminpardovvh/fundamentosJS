@@ -100,7 +100,10 @@ function notacionCientifica() {
 
 function calculo() {
     let tres = 3
-    alert(`${tres} Es nuestro numero base.\n${tres ** 4} Es nuestro valor base elevado a 4.\n${(tres ** 4) * 2} Es lo que teniamos multiplicado por 2.\nY finalmente ${((tres ** 4) * 2) - 10} es nuestro valor final.`)
+    let potencia = 3 ** 4
+    let mult = (tres ** 4) * 2
+    let final = ((tres ** 4) * 2) - 10
+    alert(`${tres} Es nuestro numero base.\n${potencia} Es nuestro valor base elevado a 4.\n${mult} Es lo que teniamos multiplicado por 2.\nY finalmente ${final} es nuestro valor final.`)
 };
 
 // 🔹 Ejercicio 10: Dado aleatorio 🎲
