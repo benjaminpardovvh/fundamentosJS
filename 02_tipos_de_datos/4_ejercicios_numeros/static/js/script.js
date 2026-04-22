@@ -64,10 +64,10 @@ function calcularSuedo() {
 // Explica el resultado en consola
 
 function divisionResto() {
-    let number1 = 5
-    let number2 = 15
+    let number1 = 5;
+    let number2 = 15;
     alert(`La division de 5 y 15 resulta en ${number1 / number2}.\nY su resto es de ${number1 % number2}`);
-    alert(`El resto es lo que sobra de la division, en este caso, el resto es 0 porque la division es justa.`)
+    alert(`El resto es lo que sobra de la division, en este caso, el resto es 0 porque la division es justa.`);
 }
 
 // 🔹 Ejercicio 7: Comparación de números
@@ -76,9 +76,9 @@ function divisionResto() {
 // Verifica si uno de ellos es igual a 10
 
 function comparacionNumeros() {
-    let numero1 = 40
-    let numero2 = 30
-    alert(`¿El primer numero es mayor que el segundo? (${numero1 >= numero2})\n¿El segundo numero es mayor que 10? (${numero2 >= 10})`)
+    let numero1 = 40;
+    let numero2 = 30;
+    alert(`¿El primer numero es mayor que el segundo? (${numero1 >= numero2})\n¿El segundo numero es mayor que 10? (${numero2 >= 10})`);
 };
 
 // 🔹 Ejercicio 8: Notación científica aplicada
@@ -88,8 +88,8 @@ function comparacionNumeros() {
 // Muestra el resultado
 
 function notacionCientifica() {
-    let poblacion = 1e7
-    alert(`la poblacion es de ${poblacion}.\nAhora los dividiremos en 4 grupos.\nLa cantidad de gente es de ${poblacion / 4} por grupo`)
+    let poblacion = 1e7;
+    alert(`la poblacion es de ${poblacion}.\nAhora los dividiremos en 4 grupos.\nLa cantidad de gente es de ${poblacion / 4} por grupo`);
 };
 
 // 🔹 Ejercicio 9: Potencia y cálculo combinado
@@ -99,11 +99,11 @@ function notacionCientifica() {
 // Resta 10 al resultado final
 
 function calculo() {
-    let tres = 3
-    let potencia = 3 ** 4
-    let mult = (tres ** 4) * 2
-    let final = ((tres ** 4) * 2) - 10
-    alert(`${tres} Es nuestro numero base.\n${potencia} Es nuestro valor base elevado a 4.\n${mult} Es lo que teniamos multiplicado por 2.\nY finalmente ${final} es nuestro valor final.`)
+    let tres = 3;
+    let potencia = 3 ** 4;
+    let mult = (tres ** 4) * 2;
+    let final = ((tres ** 4) * 2) - 10;
+    alert(`${tres} Es nuestro numero base.\n${potencia} Es nuestro valor base elevado a 4.\n${mult} Es lo que teniamos multiplicado por 2.\nY finalmente ${final} es nuestro valor final.`);
 };
 
 // 🔹 Ejercicio 10: Dado aleatorio 🎲
@@ -113,11 +113,11 @@ function calculo() {
 // Indica si el número es mayor o igual a 4 (gana) o menor (pierde)
 
 function gambling() {
-    let gambling = (Math.random() * 6) + 1
-    alert(`voy a tirar un dado, si sale 4 o mayor, ganas, de lo contrario pierdes, veamos tu suerte...`)
+    let gambling = (Math.random() * 6) + 1;
+    alert(`voy a tirar un dado, si sale 4 o mayor, ganas, de lo contrario pierdes, veamos tu suerte...`);
     if (gambling >= 4) {
-        alert(`¡¡GANASTE!!`)
+        alert(`¡¡GANASTE!!`);
     } else {
-        alert(`Perdiste... mejor suerte para la proxima...`)
+        alert(`Perdiste... mejor suerte para la proxima...`);
     };
 };

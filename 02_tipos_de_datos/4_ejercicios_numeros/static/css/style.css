@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabezita {
+    text-align: center;
+    padding: 30px;
+    color: aquamarine;
+    background-color: crimson;
+}
+
+.row {
+    border-radius: 15px;
+    display: inline-block;
+    background-color: #008DD2;
+    padding: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: solid 1px black;
+    margin-bottom: 20px;
+}
+
+.row h3{
+    color: white;
+}
