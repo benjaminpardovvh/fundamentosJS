@@ -11,18 +11,28 @@
     background-color: crimson;
 }
 
-.row {
-    border-radius: 15px;
-    display: inline-block;
-    background-color: #008DD2;
-    padding: 60px;
+.container {
+    width: 900px;
     margin: 0 auto;
-    overflow: hidden;
-    border: solid 1px black;
-    margin-bottom: 20px;
-    width: 500px;
 }
 
-.row h3{
+.row {
+    border-radius: 15px;
+    font-weight: bold;
+    width: 290px;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    border: solid 1px black;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.575);
+}
+
+.row h3 {
     color: white;
+    background-color: rgb(32, 0, 137);
+    padding: 20px;
+}
+
+.row button {
+    margin-top: 20px;
 }
