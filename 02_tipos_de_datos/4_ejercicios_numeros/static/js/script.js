@@ -115,6 +115,7 @@ function calculo() {
 function gambling() {
     let gambling = (Math.random() * 6) + 1;
     alert(`voy a tirar un dado, si sale 4 o mayor, ganas, de lo contrario pierdes, veamos tu suerte...`);
+    alert(`y...`)
     if (gambling >= 4) {
         alert(`¡¡GANASTE!!`);
     } else {
