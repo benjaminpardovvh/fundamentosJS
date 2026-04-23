@@ -9,6 +9,7 @@
     padding: 30px;
     color: aquamarine;
     background-color: crimson;
+    outline:solid 2px rgb(5, 63, 92);
 }
 
 .container {
@@ -17,13 +18,14 @@
 }
 
 .row {
+    margin-top: 10px;
     border-radius: 15px;
     font-weight: bold;
     width: 290px;
     display: inline-block;
     text-align: center;
     overflow: hidden;
-    border: solid 1px black;
+    border: solid 2px rgb(11, 13, 14);
     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.575);
 }
 
@@ -35,4 +37,5 @@
 
 .row button {
     margin-top: 20px;
+    margin-bottom: 15px;
 }
