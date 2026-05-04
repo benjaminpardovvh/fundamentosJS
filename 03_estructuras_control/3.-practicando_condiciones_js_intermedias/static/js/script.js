@@ -9,7 +9,7 @@ function ejercicio11() {
     let nombre = "Kai"
     if (nota == 7.0) { alert(`el estudiante ${nombre} tiene nota ${nota} y su resultado es: Excelente rendimiento`) }
     else if (nota >= 4.0) { alert(`el estudiante ${nombre} tiene nota ${nota} y su resultado es: rendimiento Decente`) }
-    else { alert(`el estudiante${nombre} tiene nota ${nota} y su resultado es: rendimiento Deprimente`) }
+    else { alert(`el estudiante ${nombre} tiene nota ${nota} y su resultado es: rendimiento Deprimente`) }
 }
 
 
@@ -18,8 +18,8 @@ function ejercicio11() {
 // `El nombre convertido es: DANIEL PÉREZ y tiene 12 caracteres`
 
 function ejercicio12() {
-    let nombre2 = "Josuke Hirashikata"
-    alert(`El nombre conbertido es: ${nombre2.toUpperCase()} y tiene ${nombre2.length} caracteres`)
+    let nombre2 = "Josuke Higashikata"
+    alert(`El nombre convertido es: ${nombre2.toUpperCase()} y tiene ${nombre2.length} caracteres`)
 }
 
 
