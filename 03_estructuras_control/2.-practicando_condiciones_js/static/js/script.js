@@ -108,5 +108,5 @@ function ejercicio10() {
     let n1 = 22;
     let n2 = 4;
     if (n1 > n2) {alert(`el numero mayor es: ${n1}`)}
-    else {(`el numero mayos es: ${n2}`)};
+    else {alert(`el numero mayos es: ${n2}`)};
 };
