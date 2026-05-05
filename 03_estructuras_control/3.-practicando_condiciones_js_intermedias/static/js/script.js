@@ -227,5 +227,5 @@ con ${homeless.length} caracteres, tiene un puntaje deficiente y es una frase la
     else if (homeless.length < 60 && homeless.length >= 10) { alert(`La frase "${homeless.toUpperCase()}"
 con ${homeless.length} caracteres, tiene un puntaje deficiente y es una frase mediana`) }
     else { alert(`La frase "${homeless.toUpperCase()}"
-con ${homeless.length} caracteres, tiene un puntaje deficiente y es una frase corta`) }
+con ${homeless.length} caracteres, tiene un puntaje deficiente y es una frase corta`) };
 };
